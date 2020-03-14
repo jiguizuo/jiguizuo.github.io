@@ -1,4 +1,27 @@
+   
+   function reduce(Array ,combine,start){
+
+      var current =startj
+
+      for(var element of Array){
+
+      current=combine(current ,element);
+
+      }return current;
+
+      var data=[
+
+      {name: '计算机安装与维护,credit:2}, 
+      {name: '静态网页制作'，credit:2}, 
+      {name: '计算机编程基础，credit:4}, 
+      {name: '大学英语'，credit:2},
+      {name: '软件技术导论' , credit:2}
+      ]
+      console.log{
    var sum = data.reduce(function (prev, cur) {
         return cur.credit + prev;
     },0);
 console.log(sum);
+
+</script>
+</body>
