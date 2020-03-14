@@ -1,0 +1,4 @@
+   var sum = data.reduce(function (prev, cur) {
+        return cur.credit + prev;
+    },0);
+console.log(sum);
